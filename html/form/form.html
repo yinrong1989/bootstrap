@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="../../dist/css/bootstrap.min.css  ">
+  <link rel="stylesheet" href="../../dist/css/bootstrap-theme.css">
+  <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <title></title>
+</head>
+<body>
+<form class="form-inline">
+  <div class="form-group >
+    <label for="exampleInputEmail">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword">Password</label>
+    <input type="password" class="form-control" placeholder="Password" id="exampleInputPassword" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">InputFile</label>
+    <input class="form-control" id="exampleInputFile" type="file">
+    <p class="help-block">Example block-level help text here </p>
+  </div>
+  <div class=" from-check">
+  <label >
+    <input type="checkbox" id="exampleCheckBox" >click me
+  </label>
+  </div>
+  <button type="submit" class="btn btn-primary">提交</button>
+  <input type="submit" class="btn btn-primary" value="input提交">
+</form>
+<form class="form-horizontal">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal">
+  <div class=" checkbox ">
+    <label>
+      <input type="checkbox"  value="" >
+      option is this and that be sure included why it's greate
+    </label>
+    <div class="checkbox disabled">
+      <label>
+        <input type="checkbox" disabled value=""> second option is  disabled
+      </label>
+    </div>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optinradios" id="optionRadios1" value="option1" checked>
+      Option one is this and that&mdash;be sure to include why it's great
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optinradios" id="optionRadios2" value="option2" >
+      Option one is this and that&mdash;be sure to include why it's great
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="optinradios" id="optionRadio3" value="option3" >
+      Option one is this and that&mdash;be sure to include why it's great
+    </label>
+  </div>
+  <div class="checkbox">
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+    </label>
+</div>
+  <div class="radio">
+    <label class="radio-inline">
+      <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+    </label>
+  </div>
+  <div class="checkbox">
+    <label >
+      <input type="checkbox" aria-label="option1">
+    </label>
+    </div>
+  <div class="radio">
+    <label>
+      <input type="radio" aria-label="option2">
+    </label>
+  </div>
+  <select multiple class="form-control">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+</form>
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <p class="form-control-static">email@example.com</p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+</form>
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only">Email</label>
+    <p class="form-control-static">email@example.com</p>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword2" class="sr-only">Password</label>
+    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-info">Confirm identity</button>
+</form>
+<form class="form-horizontal">
+  <div class="form-group form-control"><input class="form-control" type="text" placeholder="Readonly input here..." readonly></div>
+  <div class="form-group has-warning"><input  class="form-control" type="text" placeholder="Readonly input here..." ></div>
+  <div class="form-group has-error"><input  class="form-control" type="text" placeholder="Readonly input here..." ></div>
+  <div class="form-group has-success"><input  class="form-control" type="text" placeholder="Readonly input here..." ></div>
+
+  <div class="form-group has-success">
+    <label class="control-label" for="inputSuccess1">Input with success</label>
+    <input type="text" class="form-control" id="inputSuccess1">
+  </div>
+  <div class="form-group has-warning">
+    <label class="control-label" for="inputWarning1">Input with warning</label>
+    <input type="text" class="form-control" id="inputWarning1">
+  </div>
+  <div class="form-group has-error">
+    <label class="control-label" for="inputError1">Input with error</label>
+    <input type="text" class="form-control" id="inputError1">
+  </div>
+  <div class="has-success">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" id="checkboxSuccess" value="option1">
+        Checkbox with success
+      </label>
+    </div>
+  </div>
+  <div class="has-warning">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" id="checkboxWarning" value="option1">
+        Checkbox with warning
+      </label>
+    </div>
+  </div>
+  <div class="has-error">
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" id="checkboxError" value="option1">
+        Checkbox with error
+      </label>
+    </div>
+  </div>
+ <div class="form-group has-success has-feedback">
+   <label class="control-label" for="inputGroupSuccess1">Input Group with success</label>
+   <div class="input-group">
+     <span class="input-group-addon">@</span>
+     <input type="text" class="form-control" id="inputGroupSuccess1"  aria-describedby="inputGroupSuccess1Status">
+
+   </div>
+   <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+   <span id="inputGroupSuccess1Status" class="sr-only">(success)</span>
+
+ </div>
+
+
+
+</form>
+<form class="form-horizontal">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Input with success</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputGroupSuccess2">Input group with success</label>
+    <div class="col-sm-9">
+      <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status">
+      </div>
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputGroupSuccess2Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+</form>
+<form class="form-horizontal">
+  <input class="form-control input-lg" type="text" placeholder=".input-lg">
+  <input class="form-control" type="text" placeholder="Default input">
+  <input class="form-control input-sm" type="text" placeholder=".input-sm">
+
+  <select class="form-control input-lg">...</select>
+  <select class="form-control">...</select>
+  <select class="form-control input-sm">...</select>
+</form>
+<form class="form-horizontal">
+  <div class="form-group form-group-sm">
+    label.col-sm-2.control-label
+  </div>
+  <div class="form-group form-group-lg  "></div>
+</form>
+</body>
+</html>
